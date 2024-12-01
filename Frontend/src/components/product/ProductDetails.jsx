@@ -8,7 +8,7 @@ const ProductDetails = () => {
   const [loading, setLoading] = useState(true); // Add loading state
   const [error, setError] = useState(null); // Add error state
   const { id } = useParams();
-  const url = "http://localhost:3000/api";
+  const url = "https://deploy-ecommerce-seven.vercel.app/api";
 
   useEffect(() => {
     const fetchProduct = async () => {
